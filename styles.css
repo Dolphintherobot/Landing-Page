@@ -160,3 +160,49 @@ button {
     margin-top: -15px;
 }
 
+
+
+/* start of bottom content  */
+
+.bottom-content {
+    display:flex;
+    flex:4 4 0;
+    justify-content: center;
+    align-items: center;
+    height:330px;
+}
+
+
+.call-to-action {
+    background-color: #3882f6;
+    display: flex;
+    border-radius: 10px;
+
+}
+
+h3 {
+    margin:0;
+    color:#F9FAF8;
+}
+
+#sign-up-today {
+    margin:0px;
+}
+
+.content {
+    flex: 3;
+    height:100x;
+    width:500px;
+    padding: 50px 15px;
+}
+
+.button-box {
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-box > button {
+    border: solid white;
+}
