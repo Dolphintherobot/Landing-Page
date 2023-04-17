@@ -3,15 +3,9 @@
 }
 
 
-/* get the required local files */
-@font-face {
-    font-family: 'Roboto';
-    src: url('roboto.eot'); /* IE9 Compat Modes */
-    src: url('roboto.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('roboto.woff') format('woff'), /* Modern Browsers */
-    url('roboto.ttf')  format('truetype'), /* Safari, Android, iOS */
-    url('roboto.svg#svgFontName') format('svg'); /* Legacy iOS */
-  }
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+ 
 
 
 body {
@@ -32,6 +26,17 @@ a {
 }
 p {
     color:#E5E7EB;
+}
+
+button {
+    display:block;
+    width: 100px;
+    padding: 8px;
+    border-radius: 10px;
+    border: 0px;
+    color:#F9FAF8;
+    background-color:#3882f6;
+    font-family: 'Roboto', sans-serif;
 }
 
 .top {
