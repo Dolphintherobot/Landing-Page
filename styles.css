@@ -192,7 +192,7 @@ h3 {
 .content {
     flex: 3;
     height:100x;
-    width:500px;
+    width:750px;
     padding: 50px 15px;
 }
 
@@ -205,4 +205,14 @@ h3 {
 
 .button-box > button {
     border: solid white;
+}
+
+.footer {
+    flex:1;
+    height:65px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
